@@ -1,0 +1,307 @@
+# EESchema Netlist Version 1.1 created  Fr 30 Sep 2011 22:33:25 CEST
+(
+ ( /4E862697 $noname  R7 0 {Lib=R}
+  (    1 ? )
+  (    2 ? )
+ )
+ ( /4E86268F $noname  R6 0 {Lib=R}
+  (    1 /vcc )
+  (    2 /vcc )
+ )
+ ( /4E86268C $noname  R5 0 {Lib=R}
+  (    1 /reset )
+  (    2 /reset )
+ )
+ ( /4E862685 $noname  R4 0 {Lib=R}
+  (    1 /vcc )
+  (    2 /vcc )
+ )
+ ( /4E862665 $noname  R3 0 {Lib=R}
+  (    1 /miso )
+  (    2 /miso )
+ )
+ ( /4E860EDB $noname  TRANS_POTI1 CONN_3 {Lib=CONN_3}
+  (    1 /gnd )
+  (    2 N-000006 )
+  (    3 /vcc )
+ )
+ ( /4E860CE2 $noname  VELO_POTI1 CONN_3 {Lib=CONN_3}
+  (    1 /gnd )
+  (    2 N-000014 )
+  (    3 /vcc )
+ )
+ ( /4E860C1E $noname  MIDI1 CONN_2 {Lib=CONN_2}
+  (    1 N-000016 )
+  (    2 N-000015 )
+ )
+ ( /4E860BFC $noname  R2 220 {Lib=R}
+  (    1 N-000017 )
+  (    2 N-000016 )
+ )
+ ( /4E860BE4 $noname  R1 220 {Lib=R}
+  (    1 /vcc )
+  (    2 N-000015 )
+ )
+ ( /4E8609E5 $noname  U1 7805 {Lib=7805}
+  (   VI /v_in )
+  (   VO /vcc )
+  (  GND /gnd )
+ )
+ ( /4E8609B2 $noname  C3 100nF {Lib=C}
+  (    1 /v_in )
+  (    2 /gnd )
+ )
+ ( /4E8609A9 $noname  C2 100nF {Lib=C}
+  (    1 /vcc )
+  (    2 /gnd )
+ )
+ ( /4E860998 $noname  C1 10µF {Lib=CP1}
+  (    1 /vcc )
+  (    2 /gnd )
+ )
+ ( /4E86098C $noname  C4 10µF {Lib=CP1}
+  (    1 /v_in )
+  (    2 /gnd )
+ )
+ ( /4E860939 $noname  PWR1 CONN_2 {Lib=CONN_2}
+  (    1 /gnd )
+  (    2 /v_in )
+ )
+ ( /4E8608E2 $noname  SCAN1 CONN_4 {Lib=CONN_4}
+  (    1 /gnd )
+  (    2 /clk )
+  (    3 /data )
+  (    4 /U )
+ )
+ ( /4E860630 $noname  U2 4049 {Lib=4049}
+  (    1 /vcc )
+  (    2 /~U )
+  (    3 /U )
+  (    4 /~data )
+  (    5 /data )
+  (    6 /~clk )
+  (    7 /clk )
+  (    8 /gnd )
+ )
+ ( /4E860586 $noname  22nF2 C {Lib=C}
+  (    1 /gnd )
+  (    2 N-000024 )
+ )
+ ( /4E860573 $noname  22nF1 C {Lib=C}
+  (    1 /gnd )
+  (    2 N-000018 )
+ )
+ ( /4E86054C $noname  X1 16MHz {Lib=CRYSTAL}
+  (    1 N-000024 )
+  (    2 N-000018 )
+ )
+ ( /4E8603B5 AVR-ISP-10  J1 AVR-ISP-10 {Lib=AVR-ISP-10}
+  (    1 N-000019 )
+  (    2 /vcc )
+  (    3 ? )
+  (    4 /gnd )
+  (    5 /reset )
+  (    6 /gnd )
+  (    7 N-000029 )
+  (    8 /gnd )
+  (    9 /miso )
+  (   10 /gnd )
+ )
+ ( /4E86006F DIL20  IC1 ATTINY2313-P {Lib=ATTINY2313-P}
+  (    1 /reset )
+  (    2 ? )
+  (    3 N-000017 )
+  (    4 N-000024 )
+  (    5 N-000018 )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 /gnd )
+  (   11 ? )
+  (   12 N-000014 )
+  (   13 N-000006 )
+  (   14 /~clk )
+  (   15 /~data )
+  (   16 /~U )
+  (   17 N-000019 )
+  (   18 /miso )
+  (   19 N-000029 )
+  (   20 /vcc )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ CP*
+ SM*
+$endlist
+$component C4
+ CP*
+ SM*
+$endlist
+$component 22nF2
+ SM*
+ C?
+ C1-1
+$endlist
+$component 22nF1
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "/v_in" "v_in"
+ C4 1
+ PWR1 2
+ C3 1
+ U1 VI
+Net 2 "/clk" "clk"
+ U2 7
+ SCAN1 2
+Net 3 "/U" "U"
+ SCAN1 4
+ U2 3
+Net 4 "/vcc" "vcc"
+ R4 1
+ R4 2
+ IC1 20
+ VELO_POTI1 3
+ R6 2
+ R6 1
+ TRANS_POTI1 3
+ U1 VO
+ C2 1
+ J1 2
+ C1 1
+ R1 1
+ U2 1
+ U2 1
+ U2 1
+Net 6 "" ""
+ IC1 13
+ TRANS_POTI1 2
+Net 7 "/gnd" "gnd"
+ J1 4
+ 22nF1 1
+ C1 2
+ J1 6
+ C2 2
+ SCAN1 1
+ C3 2
+ IC1 10
+ C4 2
+ U2 8
+ TRANS_POTI1 1
+ U1 GND
+ U2 8
+ 22nF2 1
+ VELO_POTI1 1
+ J1 10
+ U2 8
+ PWR1 1
+ J1 8
+Net 14 "" ""
+ VELO_POTI1 2
+ IC1 12
+Net 15 "" ""
+ MIDI1 2
+ R1 2
+Net 16 "" ""
+ MIDI1 1
+ R2 2
+Net 17 "" ""
+ R2 1
+ IC1 3
+Net 18 "" ""
+ IC1 5
+ X1 2
+ 22nF1 2
+Net 19 "" ""
+ J1 1
+ IC1 17
+Net 20 "/~U" "~U"
+ U2 2
+ IC1 16
+Net 21 "/~clk" "~clk"
+ IC1 14
+ U2 6
+Net 22 "/~data" "~data"
+ IC1 15
+ U2 4
+Net 23 "/data" "data"
+ SCAN1 3
+ U2 5
+Net 24 "" ""
+ 22nF2 2
+ X1 1
+ IC1 4
+Net 27 "/reset" "reset"
+ J1 5
+ IC1 1
+ R5 1
+ R5 2
+Net 28 "/miso" "miso"
+ R3 2
+ IC1 18
+ R3 1
+ J1 9
+Net 29 "" ""
+ IC1 19
+ J1 7
+}
+#End

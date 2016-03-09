@@ -1,0 +1,164 @@
+Cmp-Mod V01 Created by CvPCB (2010-00-09 BZR 23xx)-stable date = Fr 30 Sep 2011 22:29:47 CEST
+
+BeginCmp
+TimeStamp = /4E860573;
+Reference = 22nF1;
+ValeurCmp = C;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E860586;
+Reference = 22nF2;
+ValeurCmp = C;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E860998;
+Reference = C1;
+ValeurCmp = 10µF;
+IdModule  = C1V7;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E8609A9;
+Reference = C2;
+ValeurCmp = 100nF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E8609B2;
+Reference = C3;
+ValeurCmp = 100nF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E86098C;
+Reference = C4;
+ValeurCmp = 10µF;
+IdModule  = C1V7;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E86006F;
+Reference = IC1;
+ValeurCmp = ATTINY2313-P;
+IdModule  = DIP-20__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E8603B5;
+Reference = J1;
+ValeurCmp = AVR-ISP-10;
+IdModule  = PIN_ARRAY_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E860C1E;
+Reference = MIDI1;
+ValeurCmp = CONN_2;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E860939;
+Reference = PWR1;
+ValeurCmp = CONN_2;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E860BE4;
+Reference = R1;
+ValeurCmp = 220;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E860BFC;
+Reference = R2;
+ValeurCmp = 220;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E862665;
+Reference = R3;
+ValeurCmp = 0;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E862685;
+Reference = R4;
+ValeurCmp = 0;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E86268C;
+Reference = R5;
+ValeurCmp = 0;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E86268F;
+Reference = R6;
+ValeurCmp = 0;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E862697;
+Reference = R7;
+ValeurCmp = 0;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E8608E2;
+Reference = SCAN1;
+ValeurCmp = CONN_4;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E860EDB;
+Reference = TRANS_POTI1;
+ValeurCmp = CONN_3;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E8609E5;
+Reference = U1;
+ValeurCmp = 7805;
+IdModule  = LM78XX;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E860630;
+Reference = U2;
+ValeurCmp = 4049;
+IdModule  = DIP-16__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E860CE2;
+Reference = VELO_POTI1;
+ValeurCmp = CONN_3;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E86054C;
+Reference = X1;
+ValeurCmp = 16MHz;
+IdModule  = HC-18UH;
+EndCmp
+
+EndListe
